@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steve's Projects">
+    <title>ReTerminal CM GPIO</title>
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+   </head>
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+                                                                                       
+  
+ 
+  <div class="noselect">                                                                                                                  
+
+  
+  <div class="gpioOutputContainer">
+    <h2 class="TextCenter">reTerminal DM - 24V GPIO</h2>
+   
+    <!-- LEDs: https://codepen.io/ephbaum/pen/MYJNaj  -->
+    
+   <div class="gpioOutputBitContainer">
+      <strong>DI1</strong><br></strong>GPIO 16</strong>
+      <br> 
+      <label class="switch">
+        </input type="checkbox" id="GPIO16" disabled                         >
+        </span> <div class="led-blue"</div></span>
+      </label>	
+   </div> 
+   </div>
+   
+   <div class="gpioOutputBitContainer">
+      <strong>DI2</strong><br></strong>GPIO 17</strong>
+      <br>
+      <label class="switch">
+        </input type="checkbox" id="GPIO17" disabled >
+        </span> <div class="led-green"</div></span>
+      </label>	
+   </div>
+   </div>
+   
+   <div class="gpioOutputBitContainer">
+      <strong>DI3</strong><br></strong>GPIO 22</strong>
+      <br>
+      <label class="switch">
+        </input type="checkbox" id="GPIO22" disabled >
+        </span> <div class="led-blue"</div></span>
+      </label>	
+   </div>
+   </div>
+   
+   <div class="gpioOutputBitContainer">
+      <strong>DI4</strong><br></strong>GPIO 23</strong>
+      <br>
+      <label class="switch">
+        </input type="checkbox" id="GPIO23" disabled >
+        </span> <div class="led-green"</div></span>
+      </label>	
+   </div>
+   </div>
+    
+    
+    
+    
+    
+    
+    <div class="gpioOutputBitContainer">
+      <strong>DO1</strong><br></strong>GPIO 24</strong>
+      <br>
+      <label class="switch">
+        <input type="checkbox" id="GPIO24" disabled >
+        <span class="slider round"></span>
+      </label>	
+      <br>
+      <button id="GPIO24Momentary"></button>
+      <br>
+    </div>
+    
+    <div class="gpioOutputBitContainer">
+      <strong>DO2</strong><br></strong>GPIO 25</strong>
+      <br>
+      <label class="switch">
+        <input type="checkbox" id="GPIO25" disabled>
+        <span class="slider round"></span>
+      </label>	
+      <br>
+      <button id="GPIO25Momentary"></button>
+      <br>
+    </div>
+    
+    <div class="gpioOutputBitContainer">
+      <strong>DO3</strong><br></strong>GPIO 26</strong>
+      <br>
+      <label class="switch">
+        <input type="checkbox" id="GPIO26" disabled>
+        <span class="slider round"></span>
+      </label>	
+      <br>
+      <button id="GPIO26Momentary"></button>
+      <br>
+    </div>
+    
+    <div class="gpioOutputBitContainer">
+      <strong>DO4</strong><br></strong>GPIO 6</strong>
+      <br>
+      <label class="switch">
+      <input type="checkbox" id="GPIO6" disabled>
+      <span class="slider round"></span>
+      </label>	
+      <br>
+      <button id="GPIO6Momentary"></button>
+      <br>
+    </div>
+    
+</div>
+  
+  
+  <!-- include socket.io client side script -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script src="main.js"></script>
+
+  <script> 
+   const socket = io();
+  </script>
+
+</body>
+</html> 
