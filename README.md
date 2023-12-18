@@ -4,6 +4,8 @@ December 17th, 2023
 
 This repository currently hold my temporary Node.js files which I am working on in an effort to control the reTerminal 24 VDC GPIO "Digital Inputs" and "Digital Outputs"
 
+Seed Studio reTerminal DM:   https://files.seeedstudio.com/wiki/reTerminalDM/reTerminal-DM-User-Manual.pdf
+
 Digital Inputs:
   DI1 - GPIO16
   DI2 - GPIO17
